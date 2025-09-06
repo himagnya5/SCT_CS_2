@@ -51,8 +51,7 @@ encrypted_swap.png → Image encrypted using pixel swap
 decrypted_swap.png → Decrypted back
 📌 Author
 
-Himagnya (GitHub: himagnya5
-)
+Himagnya (GitHub: himagnya5)
 
 Email: sshimagnya@gmail.com
 🎯 Notes
