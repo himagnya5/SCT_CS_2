@@ -26,8 +26,11 @@ This tool demonstrates how images can be securely encrypted and then decrypted b
 ---
 
 💻 Installation
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/your-username/ImageEncryptionTool.git
+
 cd ImageEncryptionTool
 
 2️⃣ Install Dependencies
