@@ -25,10 +25,31 @@ This tool demonstrates how images can be securely encrypted and then decrypted b
 
 ---
 
-## 💻 Installation
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/himagnya5/ImageEncryptionTool.git
+💻 Installation
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/ImageEncryptionTool.git
 cd ImageEncryptionTool
+
+2️⃣ Install Dependencies
+pip install pillow numpy
+
+3️⃣ Usage
+
+Place the image you want to encrypt in the project folder (e.g., input.png).
+
+Run the script:
+
+python main.py
+
+4️⃣ Outputs
+
+After running, you’ll get the following files in your project folder:
+
+🧮 encrypted_math.png → Image encrypted using mathematical method
+
+🔓 decrypted_math.png → Image decrypted back
+
+🔀 encrypted_swap.png → Image encrypted using pixel swap
+
+🔓 decrypted_swap.png → Image decrypted back
 
