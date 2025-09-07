@@ -26,48 +26,21 @@ This tool demonstrates how images can be securely encrypted and then decrypted b
 ---
 
 ## 💻 Installation
+#1️⃣ Clone the Repository
+ git clone https://github.com/your-username/ImageEncryptionTool.git
+ cd ImageEncryptionTool
+#2️⃣ Install Dependencies
+ pip install pillow numpy
+#3️⃣ Usage
+ Place the image you want to encrypt in the project folder (e.g., input.png).
+ Run the script:
+  python main.py
+#4️⃣ Outputs
+ After running, you’ll get the following files in your project folder:
+ 🧮 encrypted_math.png → Image encrypted using mathematical method
+ 🔓 decrypted_math.png → Image decrypted back
+ 🔀 encrypted_swap.png → Image encrypted using pixel swap
+ 🔓 decrypted_swap.png → Image decrypted back
 
-1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/ImageEncryptionTool.git
-cd ImageEncryptionTool
-2.Install dependencies:
-pip install pillow numpy
-⚡ Usage
 
-Place the image you want to encrypt in the project folder (e.g., input.png).
-
-Run the main script:
-python main.py
-Outputs:
-
-encrypted_math.png → Image encrypted using mathematical method
-
-decrypted_math.png → Decrypted back
-
-encrypted_swap.png → Image encrypted using pixel swap
-
-decrypted_swap.png → Decrypted back
-📌 Author
-
-Himagnya (GitHub: himagnya5)
-
-Email: sshimagnya@gmail.com
-🎯 Notes
-
-Make sure your Python environment has all dependencies installed.
-
-Avoid committing large images or unnecessary files; use .gitignore for venv/ and *.pyc.
-
----
-
-### 🔹 Next Steps
-
-1. Save this as **`README.md`** in your project root (`ImageEncryptionTool/`).  
-2. Add it to Git:
-
-```bash
-git add README.md
-git commit -m "Add README.md"
-git push
